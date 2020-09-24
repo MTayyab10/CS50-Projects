@@ -1,0 +1,150 @@
+ body,html{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.links {
+	overflow: hidden;
+}
+.right {
+
+	float: right;
+
+	/*margin: 20px;*/
+	font-size: 16px;
+	padding: 20px 14px 0 14px;
+
+	color: gray;
+	text-decoration: none;
+
+	font-family: 'Arial';
+}
+
+img {
+	/*margin: 10px;*/
+	height: 220px;
+}
+
+form {
+	text-align: center;
+	padding: 20px;
+	/*margin: 50px;*/
+}
+    
+form input[type="text"] {
+
+    width: 38%;
+    height: 42.3px;
+    outline: none;
+    font-size: 16px;
+	
+	border: 2px solid #e6e9ed;
+	
+	border-radius: 25px;
+}
+
+
+form input[type="text"]:hover {
+
+	
+	/*outline: 0 none #e6e9ed;*/
+	outline: 1px;
+	box-shadow: 1px 1px 1px 1px 
+	 #e6e9ed, 1px 1px 1px 1px 
+	 #e6e9ed;
+	/*border: 6px solid #e6e9ed;*/
+
+}
+
+.input-icons i { 
+      position: absolute; 
+      /*text-align: center;*/
+      padding: 15px 10px 20px 20px;
+      color: silver;
+}
+.input-field { 
+      padding-left: 50px; 
+      font-size: 20px;
+}
+
+#cm {
+	margin-left: 32%;
+	padding-left: 16px;
+
+	color: gray;
+	font-size: 20px;
+
+}
+#mc {
+	margin-left: 34%;
+	padding-right: 17px;
+
+	color: blue;
+	font-size: 20px;
+
+}
+#sr {
+	margin-left: 36%;
+	padding-left: 18px;
+
+	color: blue;
+	font-size: 16px;
+
+}
+a i[data-title]:hover:after {
+
+	content: attr(data-title);
+	position: absolute;
+
+	background-color: black;
+	color: white;
+	font-size: 14px;
+	width: 90px;
+	
+	right: 7%;
+	top: 59px;
+
+}
+
+footer {
+	margin-top: 230px;
+	
+	overflow: hidden;
+	background-color: whitesmoke;	
+}
+
+footer ul {
+	/*padding: 60px;*/
+
+	/*height: 30px;*/
+
+	/*text-align: center;*/
+	/*width: 100%;*/
+	/*background-color: black;*/
+	overflow: hidden;
+	list-style-type: none;
+}
+
+footer ul a {
+	text-decoration: none;
+	color: gray;
+
+	text-align: center;
+
+	font-size: 17px;
+	/*padding: 0 7px 0 5px;
+	margin: 0 5px 0 3px;*/
+	/*padding: 20px;*/
+	padding: 0 20px 0 10px;
+}
+footer ul li a:hover  {
+	text-decoration: underline;
+}
+.lft {
+	float: left;
+	
+}
+.rgt {    
+	float: right;
+}
